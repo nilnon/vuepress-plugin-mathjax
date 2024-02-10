@@ -12,7 +12,7 @@ module.exports = mergeable((config, context) => {
   }
 
   return {
-    name: 'vuepress-plugin-mathjax',
+    name: 'vuepress-plugin-mathjax-nilnon',
 
     async ready () {
       await context.writeTemp('plugins-mathjax.css', style)

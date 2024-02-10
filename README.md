@@ -1,5 +1,13 @@
 # [vuepress-plugin-mathjax](https://vuepress.github.io/plugins/mathjax/)
 
+## 修改申明
+
+合并 [fix vuepress-plugin-mathjax can not support '\begin{aligned}' problem](https://github.com/vuepress/vuepress-plugin-mathjax/pull/18)
+
+- 支持 '\begin{aligned}' 语法
+- 升级mathjax-full版本
+
+
 [![npm](https://img.shields.io/npm/v/vuepress-plugin-mathjax.svg)](https://www.npmjs.com/package/vuepress-plugin-mathjax)
 [![CircleCI](https://img.shields.io/circleci/project/github/vuepress/vuepress-plugin-mathjax/master.svg)](https://circleci.com/gh/vuepress/vuepress-plugin-mathjax)
 
@@ -8,9 +16,9 @@ A [VuePress](https://vuepress.vuejs.org/) plugin which supports TeX syntax in ma
 ## Usage
 
 ```bash
-npm i vuepress-plugin-mathjax
+npm i vuepress-plugin-mathjax-nilnon
 # OR
-yarn add vuepress-plugin-mathjax
+yarn add vuepress-plugin-mathjax-nilnon
 ```
 
 ## Configurations
